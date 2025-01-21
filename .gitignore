@@ -1,0 +1,33 @@
+# General ignores
+*.log
+*.tmp
+*.swp
+.DS_Store
+
+# Build directory
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Binary files
+*.o
+*.a
+*.so
+*.out
+*.elf
+*.bin
+
+# Debug files
+*.d
+*.gdb
+*.pdb
+
+# Visual Studio Code settings
+.vscode/
+
+# System-specific files
+Thumbs.db
+*.bak
+*.~*
